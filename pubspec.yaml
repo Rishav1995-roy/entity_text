@@ -1,0 +1,37 @@
+name: entity_text
+description: "Detect URLs, emails, phones, @mentions and #hashtags in Flutter. Tappable, selectable text, read-more, plus a live-styled input with mention suggestions."
+version: 0.0.1
+homepage: https://github.com/Rishav1995-roy/entity_text
+repository: https://github.com/Rishav1995-roy/entity_text
+issue_tracker: https://github.com/Rishav1995-roy/entity_text/issues
+
+topics:
+  - text
+  - mentions
+  - hashtags
+  - linkify
+  - textfield
+
+screenshots:
+  - description: Demo - tapping entities in a post, typing @ to pick a mention, live hashtag highlighting.
+    path: doc/demo.gif
+  - description: Post with tappable, selectable links, mentions and hashtags, and a read more toggle.
+    path: doc/screenshot_post.png
+  - description: Composer with a mention suggestion overlay.
+    path: doc/screenshot_composer.png
+  - description: Dark theme with custom styles.
+    path: doc/screenshot_dark.png
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  characters: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=5.0.0 <7.0.0"
