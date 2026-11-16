@@ -1,4 +1,5 @@
 import 'package:entity_text/entity_text.dart';
+// ignore: deprecated_member_use
 import 'package:flutter/material.dart';
 
 import '../data.dart';
