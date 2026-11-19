@@ -1,6 +1,6 @@
 name: entity_text
 description: "Detect URLs, emails, phones, @mentions and #hashtags in Flutter. Tappable, selectable text, read-more, plus a live-styled input with mention suggestions."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Rishav1995-roy/entity_text
 repository: https://github.com/Rishav1995-roy/entity_text
 issue_tracker: https://github.com/Rishav1995-roy/entity_text/issues
